@@ -2,8 +2,12 @@
 	Directline offline bridge.
 	=========================
 
-	Before you run chatbot-server (server) and webchat (client) examples you need first run this app.
-	This is a gateway to replace Azure Server while you are in development mode or even running this example.
+	If you want run myChatBot app outside MS Azure platform you must run bridge.js app to webchat client access myChatBot services.
+
+	This is a gateway to replace Azure Server while you are in development mode or even running this example without MS Azure account access.
+
+	If you are running myChatBot (server) in MS Azure Cloud you don't need run this app. In you client side (webchat-client) just set:
+		USE_LOCAL_SERVER=false;
 
 	Many thanks to Ryan:
 		npm -> https://www.npmjs.com/package/offline-directline

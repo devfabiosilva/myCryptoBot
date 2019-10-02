@@ -1,0 +1,193 @@
+//Sáb 14 Set 2019 19:16:52 -03
+Treinamento
+Scripts
+
+Saudaçao:
+	1- Olá
+	2- Oi, como vai
+	3- E ae mano
+	4- Fala
+	5- Fala tu
+	6- Oi
+	7- Como vai você
+	8- Alô
+	9- E ae cara, tudo bom?
+	10- E ae firmeza
+	11- Qual é
+	12- eae
+	13- Oieee
+	14- Ola tudo bom
+	15- Ola td bem
+	16- Olá tudo bem
+	17- Eae mane
+	18- Bom dia.
+	19- Boa tarde
+	20- Boa noite
+	21- Ola boa tarde
+	22- Ola boa noite
+	23- Ola bom dia
+
+Pergunta sobre o que o chatbot faz:
+
+	1- O que vc faz
+	2- O que você faz
+	3- O que você sabe fazer
+	4- O que vc sabe fazer
+	5- O que vc ja sabe fazer
+	6- Conte me sobre você
+	7- Conte me mais sobre você
+	8- Me fala de você
+	9- Me fala mais sobre você
+	10- Estou curioso em saber o que você faz.
+	11- Queria saber exatamente o que vc faz.
+	12- Fala pra mim o que você faz.
+	13- O que gosta de fazer
+	14- O que você mais gosta de fazer
+	15- Ouvi dizer que vc faz um monte de coisas
+	16- Queria saber o que você faz
+	17- Me diz o que vc faz
+	18- O q vc eh capaz de fazer
+	19- O que voce é capaz de fazer
+	20- Fala o que vc faz
+	21- Fala o q vc faz
+	22- Quais sao as suas habilidades
+	23- Quem eh vc
+	24- Quem vc é
+	25- Quem é você
+	26- Fala pra mim quem é você
+	27- Me fala quem é vc
+
+Pergunta sobre IoT:
+
+	1- Poderia ligar a lâmpada do quarto por favor
+	2- Ligue a lampada do quarto
+	3- Acenda a lâmpada do meu quarto
+	4- Ligue a lampada
+	5- Acende a lampada
+	6- Acender lampada do quarto
+	7- Ligar lampada do quarto
+	8- Acender lampada
+	9- Ligar lampada
+	10- Apagar lampada
+	11- Desligar lampada
+	12- Apagar a lampada
+	13- Desligar a lampada
+	14- Pode desligar a lampada do meu quarto por favor
+	15- Pode apagar a lampada do meu quarto por favor
+	16- Apagar a luz
+	17- Desligar a luz
+	18- Pode apagar a luz do meu quarto pra mim
+	19- Pode desligar a luz do meu quarto por favor
+	20- Desligar luz
+	21- Acender luz
+	22- Poderia acender a luz pra mim
+	23- Pode acender a luz
+
+Pergunta sobre criptomoedas e moedas fiat
+
+	1- Qual o preço do dólar
+	2- Informa o preço do dolar por favor
+	3- poderia me informar o valor do dolar.
+	4- qual a cotação do dolar hj
+	5- pode me informar quanto tá o dolar
+	6- qual o preço do euro
+	7- informa o preço do dolar por favor
+	8- poderia me informar o valor do euro
+	9- pode me informar o valor do dolar e do euro
+	10- diz o valor do dolar pra mim
+	11- diz o valor do euro pra mim
+	12- Qual o preço dolar e do euro
+	13- e do euro
+	14- e do dolar
+	15- pode me informar o preço do bitcoin
+	16- qual o preco do bitcoin
+	17- poderia me informar o preço do bitcoin hj
+	18- quanto tá o bitcoin
+	19- quanto tá o dolar
+	20- quanto ta o euro
+	21- pode me informar quanto tá o bitcoin
+	22- pode me informar quanto custa o dólar e o bitcoin
+	23- quanto tá o dolar o bitcoin e o euro
+	24- quanto tá a nano
+	25- quanto custa a nano
+	26- gostaria de saber o preço da nano
+	27- gostaria de saber o preço da nano e do bitcoin
+	28- pode me informar quanto tá o dolar e o bitcoin
+	29- e do bitcoin
+	27- da nano
+	28- poderia me informar o preço da nano do euro do dolar e do bitcoin
+	29- poderia me dizer o preço da nano e do bitcoin
+	30- pode me dizer o preço da nano e do bitcoin
+	31- adoraria saber o preço do dolar e do bitcoin
+	32- do bitcoin e da nano
+	33- pode me informar o preço do litecoin
+	34- pode me dizer o preço do litecoin
+	35- e do litecoin
+	36- adoraria saber o preço do litecoin
+	37- gostaria de saber o preço da litecoin
+	38- quanto tá o litecoin
+	39- quanto custa o litecoin
+	40- qual o preço do litecoin
+	41- pode me informar quanto custa o litecoin
+	42- quanto custa o litecoin e o bitcoin
+	43- quanto custa o litecoin e o dolar
+	44- poderia informar pra mim o preço do euro e do litecoin
+	45- e da litecoin
+	46- e do litecoin
+	47- poderia me informar o preço do litecoin e da nano e do bitcoin pra mim
+	48- quanto tá o ethereum
+	49- quanto custa o ethereum
+	50- pode me informar o preço do ethereum
+	51- pode me informar a catação do ethereum
+	52- gostaria de saber a cotação do ethereum
+	53- gostaria de saber a cotaçao do dolar e do ethereum
+	54- gostaria de saber a cotação do ethereum e do bitcoin
+	55- quanto tá o ethereum
+	56- quanto tá o ethereum e o bitcoin
+	57- quanto tá o dolar e o ethereum
+	58- pode me informar quanto custa o ethereum e a nano
+	59- pode me dizer o preço da nano do ethereum do dolar e do bitcoin
+	60- pode me informar o preço do monero
+	61- quanto custa o monero
+	62- quanto custa o dolar e o monero
+	63- quanto tá o monero
+	64- quanto custa o monero e o bitcoin
+	65- quanto custa o monero e a nano e o litecoin
+	66- e do monero
+	67- poderia me dizer o preço do monero
+	68- adoraria saber o preço do monero
+	69- pode me dizer o preço da nano e do monero
+	70- do monero e do dolar
+	71- quanto custa o iota
+	72- quanto ta o iota
+	73- quanto custa o iota e dolar
+	74- qual a cotação do iota
+	75- qual o preço do iota
+	76- quanto custa o iota e o bitcoin
+	77- poderia me informar o preço do iota
+	78- poderia me informar o preço do iota e do bitcoin
+	79- poderiam me informa o preço do iota e da nano
+	80- e do iota
+	81- e do iota e da nano
+	82- e do iota e o bitcoin
+	83- gostaria de saber a cotaçao do iota e do bitcoin
+	84- informa o preço do iota pra mim
+	85- informa a cotação do iota e do monero pra mim
+
+Despedida
+
+	1- Tchau
+	2- Vou me embora
+	3- to indo embora
+	4- to saindo
+	5- bye
+	6- byebye
+	7- bye bye
+	8- vou embora
+	9- até logo
+	10- adeus
+	11- tenho que ir
+	12- to partindo
+	13- estou partindo
+	14- estou indo embora
+

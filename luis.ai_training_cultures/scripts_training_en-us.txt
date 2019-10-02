@@ -1,0 +1,168 @@
+//Sáb 14 Set 2019 19:16:52 -03
+Training
+Scripts
+
+Greetings:
+	1- Hi
+	2- Hello, how are you
+	3- What's up
+	4- Hi, how are u
+	5- Hey
+	6- Hey there
+	7- hru
+	8- Hello
+	9- Hallo
+	10- Hi there
+	11- hello hru
+	12- good morning
+	13- good afternoon
+	14- good evening
+	15- good night
+	16- hello you
+
+Asking what chatbot does:
+
+	1- What u do
+	2- What you do
+	3- Tell me what you know
+	4- tell me what u do
+	5- What kind of things you know
+	6- Tell me about you
+	7- Tell me more about you
+	8- Tell me more of you
+	9- Can you tell me what you do
+	10- I am exciting to know about you
+	11- I would like to know what you do
+	12- Tell me what you like to do
+	13- What do you like to do
+	14- What kind of thing do you like to do
+	15- I heard about you and I know that u do a lot o things
+	16- I would like to know more about you
+	17- Tell me what you do
+	18- What's you favorite hobbies
+	23- What's ur hobbies
+	24- What's your hobbies
+	25- Who are you
+	26- Who are u
+	27- Tell me who are u
+
+Asking about IoT:
+
+	1- Could u turn on bedroom lamp please
+	2- Turn on bedroom lamp
+	3- Can u please turn on bedroom lamp
+	4- Turn on bedroom lamp
+	5- Bedroom lamp on
+	6- turn on bedroom lamp
+	7- turn on lamp
+	8- turn off lamp
+	9- Can u please turn of bedroom lamp
+	10- turn off bedroom lamp
+
+Asking about cryptocurrency and fiat
+
+	1- How much is a dollar
+	2- tell me dollar price
+	3- tell me dollar cotation
+	4- what's dollar price for today?
+	5- can you tell me how much is dollar?
+	6- how much is euro
+	7- inform dollar price please
+	8- can you tell me euro cotation
+	9- can you tell me dollar and euro price
+	10- how much is one dollar
+	11- send me euro price to me
+	12- what's euro and dollar price
+	13- how about dollar
+	14- how about euro
+	15- bitcoin price
+	16- tell me bitcoin price
+	17- could u tell me bitcoin cotation for today
+	18- how much is one bitcoin
+	19- how much is one dollar
+	20- how much is one euro
+	21- could you tell me how much is one bitcoin
+	22- could u tell me how much is one dollar and one bitcoin
+	23- how much is dollar euro and bitcoin
+	24- how much is nano
+	25- how much is one nano
+	26- i would like to know about nano price
+	27- i would like to know about nano price and bitcoin
+	28- can you tell me how much is one dollar and one bitcoin
+	29- how about bitcoin
+	27- how about nano
+
+	28- could you tell me about euro dollar and bitcoin price
+	29- how about nano and bitcoin price
+	30- can you inform about btc and nano
+	31- i would like to know about btc and dollar
+	32- bitcoin and nano
+	33- how about ltc price
+	34- can you tell me litecoin price
+	35- how about litecoin
+	36- i would like to know litecoin price
+	37- i would like to know ltc price
+	38- how much is ltc
+	39- how much is litecoin
+	40- litecoin price
+	41- can you inform how much is litecoin
+	42- how much is ltc and btc
+	43- how much is dollar and ltc
+	47- how much is ltc nano and btc
+	48- how much is ethereum
+	49- how much is eth
+	50- could you inform about eth price
+	51- how much is ethereum
+	52- how about eth
+	53- how much is dollar and ethereum
+	54- how much is eth and btc
+	55- ethereum and bitcoin
+	56- how much ethereum and bitcoin
+	57- about dollar and ethereum
+	58- how much is nano and ethereum
+	59- could u tell me about nano ethereum dollar and bitcoin
+	60- how much is monero
+	61- how much is monero price
+	62- how about monero
+	63- how much monero and bitcoin
+	64- how much is monero and btc
+	65- how much monero nano and litecoin
+	66- how about monero
+	67- monero price
+	68- i would like to know how much is monero
+	69- could you inform monero and nano price
+	70- how much is monero and dollar
+	71- how much is iota
+	72- iota price
+	73- how much is iota and dollar
+	74- how much is iota price
+	75- iota price
+	76- how much is iota and btc
+	77- how much is iota and bitcoin
+	78- could you inform about iota and bitcoin price
+	79- how much is iota and nano
+	80- how about nano and bitcoin
+	81- how about iota and nano
+	82- iota and bitcoin price
+
+
+Saying goodbye:
+
+	1- Bye
+	2- I am leaving
+	3- i am going away
+	4- bye bye
+	5- goodbye
+	6- good bye
+	7- i must go
+	8- i must go now
+	9- i gotta go now
+	10- i have to go
+	11- i have to go away
+	12- i must leave you
+	13- see you
+	14- see ya
+	15- see you soon
+	16- so long
+	17- farewell
+

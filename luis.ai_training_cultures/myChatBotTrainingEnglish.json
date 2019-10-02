@@ -1,0 +1,1501 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "myChatBotTrainingEnglish",
+  "desc": "US English example for myChatBot",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "coin_price"
+    },
+    {
+      "name": "greeting"
+    },
+    {
+      "name": "iot_command"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "say_goodbye"
+    },
+    {
+      "name": "whatido"
+    }
+  ],
+  "entities": [
+    {
+      "name": "bedroom_lamp_off",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "bedroom_lamp_on",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_btc",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_dolar",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_ethereum",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_euro",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_iota",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_litecoin",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_monero",
+      "roles": [],
+      "hierarchyChildren": []
+    },
+    {
+      "name": "coin_nano",
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "about dollar and ethereum",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 6,
+          "endPos": 11
+        },
+        {
+          "entity": "coin_ethereum",
+          "startPos": 17,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "bedroom lamp on",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_on",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "bitcoin and nano",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 0,
+          "endPos": 6
+        },
+        {
+          "entity": "coin_nano",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "bitcoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "bye",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "bye bye",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "can u please turn off bedroom lamp",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_off",
+          "startPos": 13,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "can u please turn on bedroom lamp",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_on",
+          "startPos": 13,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "can you inform about btc and nano",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 21,
+          "endPos": 23
+        },
+        {
+          "entity": "coin_nano",
+          "startPos": 29,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "can you inform how much is litecoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 27,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "can you tell me dollar and euro price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 16,
+          "endPos": 21
+        },
+        {
+          "entity": "coin_euro",
+          "startPos": 27,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "can you tell me euro cotation",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_euro",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "can you tell me how much is dollar?",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 28,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "can you tell me how much is one dollar and one bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 32,
+          "endPos": 37
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 47,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "can you tell me litecoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 16,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "can you tell me what you do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "could u tell me about nano ethereum dollar and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 22,
+          "endPos": 25
+        },
+        {
+          "entity": "coin_ethereum",
+          "startPos": 27,
+          "endPos": 34
+        },
+        {
+          "entity": "coin_dolar",
+          "startPos": 36,
+          "endPos": 41
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 47,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "could u tell me bitcoin cotation for today",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 16,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "could u tell me how much is one dollar and one bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 32,
+          "endPos": 37
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 47,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "could u turn on bedroom lamp please",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_on",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "could you inform about eth price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 23,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "could you inform about iota and bitcoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 23,
+          "endPos": 26
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 32,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "could you inform monero and nano price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 17,
+          "endPos": 22
+        },
+        {
+          "entity": "coin_nano",
+          "startPos": 28,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "could you tell me about euro dollar and bitcoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_euro",
+          "startPos": 24,
+          "endPos": 27
+        },
+        {
+          "entity": "coin_dolar",
+          "startPos": 29,
+          "endPos": 34
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 40,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "could you tell me how much is one bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 34,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "ethereum and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 0,
+          "endPos": 7
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 13,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "farewell",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "good bye",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "goodbye",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "hallo",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hello hru",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hello you",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hello, how are you",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hi there",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "hi, how are u",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "how about bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 10,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "how about dollar",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 10,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "how about eth",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "how about euro",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_euro",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "how about iota and nano",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "coin_nano",
+          "startPos": 19,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "how about litecoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 10,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "how about ltc price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "how about monero",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 10,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "how about nano",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "how about nano and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 19,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "how about nano and bitcoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 19,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "how much ethereum and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 9,
+          "endPos": 16
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 22,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "how much is a dollar",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 14,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "how much is dollar and ethereum",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 12,
+          "endPos": 17
+        },
+        {
+          "entity": "coin_ethereum",
+          "startPos": 23,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "how much is dollar and ltc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 12,
+          "endPos": 17
+        },
+        {
+          "entity": "coin_litecoin",
+          "startPos": 23,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "how much is dollar euro and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 12,
+          "endPos": 17
+        },
+        {
+          "entity": "coin_euro",
+          "startPos": 19,
+          "endPos": 22
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 28,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "how much is eth",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 12,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "how much is eth and btc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 12,
+          "endPos": 14
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "how much is ethereum",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_ethereum",
+          "startPos": 12,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "how much is euro",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_euro",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "how much is iota",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "how much is iota and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 12,
+          "endPos": 15
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 21,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "how much is iota and btc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 12,
+          "endPos": 15
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 21,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "how much is iota and dollar",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 12,
+          "endPos": 15
+        },
+        {
+          "entity": "coin_dolar",
+          "startPos": 21,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "how much is iota and nano",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 12,
+          "endPos": 15
+        },
+        {
+          "entity": "coin_nano",
+          "startPos": 21,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "how much is iota price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "how much is litecoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 12,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "how much is ltc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 12,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "how much is ltc and btc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 12,
+          "endPos": 14
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "how much is ltc nano and btc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 16,
+          "endPos": 19
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 25,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "how much is monero",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "how much is monero and btc",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 12,
+          "endPos": 17
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 23,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "how much is monero and dollar",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 12,
+          "endPos": 17
+        },
+        {
+          "entity": "coin_dolar",
+          "startPos": 23,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "how much is monero price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "how much is nano",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "how much is nano and ethereum",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 12,
+          "endPos": 15
+        },
+        {
+          "entity": "coin_ethereum",
+          "startPos": 21,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "how much is one bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 16,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "how much is one dollar",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 16,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "how much is one euro",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_euro",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "how much monero and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 9,
+          "endPos": 14
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 20,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "how much monero nano and litecoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 9,
+          "endPos": 14
+        },
+        {
+          "entity": "coin_nano",
+          "startPos": 16,
+          "endPos": 19
+        },
+        {
+          "entity": "coin_litecoin",
+          "startPos": 25,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "hru",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "i am exciting to know about you",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "i am going away",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i am leaving",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i gotta go now",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i have to go",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i have to go away",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i heard about you and i know that u do a lot o things",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "i must go",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i must go now",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i must leave you",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "i would like to know about btc and dollar",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 27,
+          "endPos": 29
+        },
+        {
+          "entity": "coin_dolar",
+          "startPos": 35,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "i would like to know about nano price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 27,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "i would like to know about nano price and bitcoin",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_nano",
+          "startPos": 27,
+          "endPos": 30
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 42,
+          "endPos": 48
+        }
+      ]
+    },
+    {
+      "text": "i would like to know how much is monero",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 33,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "i would like to know litecoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 21,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "i would like to know ltc price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 21,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "i would like to know more about you",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "i would like to know what you do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "inform dollar price please",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 7,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "iota and bitcoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 0,
+          "endPos": 3
+        },
+        {
+          "entity": "coin_btc",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "iota price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_iota",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "litecoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_litecoin",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "monero price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_monero",
+          "startPos": 0,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "see ya",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "see you",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "see you soon",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "send me euro price to me",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_euro",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "so long",
+      "intent": "say_goodbye",
+      "entities": []
+    },
+    {
+      "text": "tell me about you",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me bitcoin price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_btc",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "tell me dollar cotation",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "tell me dollar price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "tell me more about you",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me more of you",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me what u do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me what you do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me what you know",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me what you like to do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "tell me who are u",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "turn off bedroom lamp",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_off",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "turn off lamp",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_off",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "turn on bedroom lamp",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_on",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "turn on lamp",
+      "intent": "iot_command",
+      "entities": [
+        {
+          "entity": "bedroom_lamp_on",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "what do you like to do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what kind of thing do you like to do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what kind of things you know",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what u do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what you do",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what's dollar price for today?",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 7,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "what's euro and dollar price",
+      "intent": "coin_price",
+      "entities": [
+        {
+          "entity": "coin_dolar",
+          "startPos": 7,
+          "endPos": 10
+        },
+        {
+          "entity": "coin_dolar",
+          "startPos": 16,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "what's up",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "what's ur hobbies",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what's you favorite hobbies",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "what's your hobbies",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "who are u",
+      "intent": "whatido",
+      "entities": []
+    },
+    {
+      "text": "who are you",
+      "intent": "whatido",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
