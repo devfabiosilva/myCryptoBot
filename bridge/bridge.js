@@ -1,4 +1,10 @@
 /*
+
+	AUTHOR: Fábio Pereira da Silva
+	YEAR: 2019
+	LICENSE: MIT
+	EMAIL: fabioegel@gmail.com or fabioegel@protonmail.com
+
 	Directline offline bridge.
 	=========================
 

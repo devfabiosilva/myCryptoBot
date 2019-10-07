@@ -1,6 +1,10 @@
+AUTHOR: Fábio Pereira da Silva
+YEAR: 2019
+LICENSE: MIT
+EMAIL: fabioegel@gmail.com or fabioegel@protonmail.com
+
 //Sáb 14 Set 2019 19:16:52 -03
-Training
-Scripts
+Training Scripts
 
 Greetings:
 	1- Hi
