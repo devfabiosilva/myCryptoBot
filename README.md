@@ -23,18 +23,25 @@ myChatBot can run outside Azure Cloud via [Bridge](https://github.com/devfabiosi
 
 To run myChatBot in your computer you need:
 
+- Create a path <YOUR_PATH> and clone this repository
+```markdown
+cd <YOUR_PATH>
+git clone https://github.com/devfabiosilva/myCryptoBot.git
+```
 - Install [nodejs](https://nodejs.org/en/) (ver v10.16 recommended)
-- Configure client side (language interface, custom welcome message, ports) in [_index.js_]() file
-- Configure server side (language culture, use IoT platform, set LUIS API) in [_api__config.js_]() file.
+- Configure client side (language interface, custom welcome message, ports) in [index.js]() file
+- Configure server side (language culture, use IoT platform, set LUIS API) in [api_config.js]() file.
 - Install dependencies modules
 - Run myChatBot
 
 #### Running bridge
 
 ```markdown
+cd <YOUR_PATH>/myCryptoBot/bridge/
 npm install
 node bridge.js
 ```
+Default port to listen: localhost:3000
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
