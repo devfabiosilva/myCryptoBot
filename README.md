@@ -73,7 +73,10 @@ npm start
 
 Below is an framework to implement into your project
 
-![Image](/docs/images/screenshot16.png)
+<p align="center">
+  <img src="/docs/images/screenshot16.png">
+</p>
+<!--![Image](/docs/images/screenshot16.png) -->
 
 ### Screenshots
 
