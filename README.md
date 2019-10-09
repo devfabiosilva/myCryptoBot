@@ -21,6 +21,21 @@ myChatbot is a cute chatbot with full client and server structure example with r
 
 myChatBot can run outside Azure Cloud via [Bridge](https://github.com/devfabiosilva/myCryptoBot/tree/master/bridge). This is an easy way to test and develop improvement without you have an MS Azure account. Easy to build before use Azure Cloud.
 
+To run myChatBot in your computer you need:
+
+- Install [nodejs](https://nodejs.org/en/) (ver v10.16 recommended)
+- Configure client side (language interface, custom welcome message, ports) in [_index.js_]() file
+- Configure server side (language culture, use IoT platform, set LUIS API) in [_api__config.js_]() file.
+- Install dependencies modules
+- Run myChatBot
+
+#### Running bridge
+
+```markdown
+npm install
+node bridge.js
+```
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
