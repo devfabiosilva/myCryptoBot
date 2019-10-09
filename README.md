@@ -71,7 +71,7 @@ npm start
 
 ### myCryptoBot full framework
 
-[Image](/docs/images/screenshot16.png)
+![Image](/docs/images/screenshot16.png)
 
 #### Screenshots
 
