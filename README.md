@@ -19,7 +19,7 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 
 ### Installing
 
-myCryptoBot can run outside Azure Cloud via [Bridge](https://github.com/devfabiosilva/myCryptoBot/tree/master/bridge). This is an easy way to test and develop improvement without you have an MS Azure account. Easy to build before use Azure Cloud.
+myCryptoBot can run outside Azure Cloud via [Bridge](https://github.com/devfabiosilva/myCryptoBot/tree/master/bridge). This is an easy way to test and develop improvement without you have a MS Azure account. Easy to deploy before upload production to Azure Cloud.
 
 To run myCryptoBot in your computer you need:
 
@@ -47,13 +47,21 @@ Default port to listen: localhost:3000
 
 #### Running server app
 
-Server have two Artificial Intelligence service (US English) and (Brazilian Portuguese) cultures. You need to select one of them or even add a new culure language if you want. You must train your chatbot before you run server app. In [luis.ai_training_cultures](https://github.com/devfabiosilva/myCryptoBot/tree/master/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) and [myChatBotTrainingEnglish.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingEnglish.json) to upload to [LUIS](https://www.luis.ai/home). After trained chatbot just add you LUIS API to [MODIFY api_config.js]()
+myCryptoBot server has two Artificial Intelligence services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](https://github.com/devfabiosilva/myCryptoBot/tree/master/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) and [myChatBotTrainingEnglish.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingEnglish.json) to upload to [LUIS](https://www.luis.ai/home). After trained chatbot just add you LUIS API to [MODIFY api_config.js]()
 
 ```markdown
 cd <YOUR_PATH>/myCryptoBot/chatbot-server/
 npm install
 node app.js
 ```
+
+#### Running client app
+
+myCryptoBot webchat is a cute and lightweight app build in [ReactJS](https://reactjs.org) a robust JavaScript library for building user interfaces. You can simply modify CSS page styles in styles directory or Adaptive Cards and webchat styles in [index.css]().
+
+To additional change inteface (language support, welcome message and conection to local server or Azure Cloud) open [README](webchat-client/README.md) for details.
+
+#### Screenshots
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
