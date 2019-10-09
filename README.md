@@ -71,9 +71,11 @@ npm start
 
 ### myCryptoBot full framework
 
+Below is an framework to implement into your project
+
 ![Image](/docs/images/screenshot16.png)
 
-#### Screenshots
+### Screenshots
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
