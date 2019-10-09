@@ -1,6 +1,6 @@
 ## Welcome to myCryptoBot
 
-myChatbot is a cute chatbot with full client and server structure example with rich details explaining disruptive technologies. Using [Microsoft LUIS (Language Understandig Intelligence System)](https://luis.ai), IoT integration with IBM Bluemix and using API's to access cryptocurrencies and fiat prices. Also myChatbot is fully compatible with Google Drive. You can include Google API to custom myChatbot messages and text.
+myChatbot is a cute chatbot with full client and server structure example with rich details explaining disruptive technologies. Using [Microsoft LUIS (Language Understandig Intelligence System)](https://www.luis.ai/home), IoT integration with [IBM Bluemix](https://www.ibm.com/cloud/info/fast-cloud-servers) and using API's to access [cryptocurrencies](https://coinmarketcap.com) and [fiat prices](https://apilayer.com). Also myChatbot is fully compatible with [Google Drive](https://about.google/intl/drive/) datasheets. You can include Google API to custom myChatbot messages and text. With [adaptive cards](https://adaptivecards.io) you can include amazing and cute dynamic forms and multimidia (audio/video)
 You can use the [editor on GitHub](https://github.com/devfabiosilva/myChatbot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
