@@ -1,5 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to myCryptoBot
 
+myChatbot is a cute chatbot with full client and server structure example with rich details explaining disruptive technologies. Using [Microsoft LUIS (Language Understandig Intelligence System)](https://luis.ai), IoT integration with IBM Bluemix and using API's to access cryptocurrencies and fiat prices. Also myChatbot is fully compatible with Google Drive. You can include Google API to custom myChatbot messages and text.
 You can use the [editor on GitHub](https://github.com/devfabiosilva/myChatbot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
