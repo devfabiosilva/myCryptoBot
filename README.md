@@ -140,6 +140,11 @@ Nano:      | nano1cb5fs7xmixqzpitfn9ouy4j1g3hjmdfudc1igt5xhwwps7qdku5htqxmznb
 Litecoin:  | LRjEiKadFzPCoGorWvSVUnWPsFyPZGt97f
 Dogecoin:  | DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 ### Contact
 
 You can contact me at [fabioegel@gmail.com](mailto:fabioegel@gmail.com) or [fabioegel@protonmail.com](mailto:fabioegel@protonmail.com)
