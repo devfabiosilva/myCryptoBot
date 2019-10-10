@@ -1,4 +1,4 @@
-## Welcome to myCryptoBot
+# Welcome to myCryptoBot
 
 myCryptoBot is a cute chatbot with full client and server structure example with rich details explaining disruptive technologies. Using [Microsoft LUIS (Language Understandig Intelligence System)](https://www.luis.ai/home), IoT integration with [IBM Bluemix](https://www.ibm.com/cloud/info/fast-cloud-servers) and using API's to access [cryptocurrencies](https://coinmarketcap.com) and [fiat prices](https://apilayer.com). Also myCryptoBot is fully compatible with [Google Drive](https://about.google/intl/drive/) datasheets. You can include Google API to custom myCryptoBot messages and text. With [Adaptive Cards](https://adaptivecards.io) you can include amazing and cute dynamic forms and multimidia (audio/video)
 
@@ -89,8 +89,25 @@ Fiat price, cryptocurrencies, Adaptive Cards and IoT integration are already imp
   <img src="/docs/images/screenshot18.png">
 </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+### IoT security issues using IBM Cloud App Management
+
+A vulnerability in Node.js affects IBM Cloud App Management detais [here](https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/) and [here](https://www.ibm.com/support/pages/security-bulletin-vulnerability-nodejs-affects-ibm-cloud-app-management-v2018)
+
+There is a vulnerability in axios (dependecy of ibmiotf)
+
+#### Brief description of the problem
+Node.js and all implementation of HTTP/2 have been found a vulnerable Denial of Service attack.
+
+That means stablishing an HTTP or HTTPS connection in keep-alive mode, a remote attacker could exploit this vulnerability to consume all available resource. But **an attacker can NOT modify or leak information**. Rather this vulnerability allows a small number of malicious sessions to prevent connection participants from doing additional work exhausting resource causing crash.
+
+Netflix discovered resource exhaustion vectors affecting HTTP/2 third-party implementations. Additional information can be found [here](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md)
+
+#### Mitigation
+
+##### Disable IoT service
+
+##### Developing an independent library to myCryptoBot
 ```markdown
 Syntax highlighted code block
 
