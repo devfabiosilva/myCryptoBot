@@ -28,7 +28,7 @@ To run myCryptoBot in your computer you need:
 cd <YOUR_PATH>
 git clone https://github.com/devfabiosilva/myCryptoBot.git
 ```
-- Install [nodejs](https://nodejs.org/en/) (v10.16 recommended)
+- Install [nodejs](https://nodejs.org/en/) (v10.16.3 recommended)
 - Configure client side (language interface, custom welcome message, ports) in [index.js]() file
 - Configure server side (language culture, IoT platform, set LUIS API) in [api_config.js]() file.
 - Install dependencies modules in client, bridge and server side
@@ -105,9 +105,22 @@ Netflix discovered resource exhaustion vectors affecting HTTP/2 third-party impl
 
 #### Mitigation
 
-##### Disable IoT service
+##### Enable/Disable IoT service
+
+IoT service is disable by default to prevent DoS attack in myCryptoBot. If you want to enable it, modify [api_config.js](/chatbot-server/api_config.js) setting F_USE_IBM_IOT=true
+
+If you disable IBM IoT service (F_USE_IBM_IOT=false) you will not able to control your devices through coginitive service (IA).
+
+##### Install the latest version of Node.Js
+
+In 2019-08-15 Node.Js made a notable changes security releases. Update your [node application](https://nodejs.org/en/) to latest version.
 
 ##### Developing an independent library to myCryptoBot
+
+I am in a effort to develop an library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2
+
+#### Contribution
+
 ```markdown
 Syntax highlighted code block
 
