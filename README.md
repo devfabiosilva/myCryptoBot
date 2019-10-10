@@ -85,6 +85,10 @@ Fiat price, cryptocurrencies, Adaptive Cards and IoT integration are already imp
   <img src="/docs/images/screenshot17.png">
 </p>
 
+<p align="center">
+  <img src="/docs/images/screenshot18.png">
+</p>
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
