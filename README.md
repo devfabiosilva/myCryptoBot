@@ -92,60 +92,55 @@ Fiat price, cryptocurrencies, Adaptive Cards and IoT integration are already imp
 
 ### IoT security issues using IBM Cloud App Management
 
-A vulnerability in Node.js affects IBM Cloud App Management detais [here](https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/) and [here](https://www.ibm.com/support/pages/security-bulletin-vulnerability-nodejs-affects-ibm-cloud-app-management-v2018)
+A vulnerability in Node.js affects IBM Cloud App Management. Detais [here](https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/) and [here](https://www.ibm.com/support/pages/security-bulletin-vulnerability-nodejs-affects-ibm-cloud-app-management-v2018)
 
 There is a vulnerability in axios (dependecy of ibmiotf)
 
 #### Brief description of the problem
-Node.js and all implementation of HTTP/2 have been found a vulnerable Denial of Service attack.
+Node.js and all implementation of HTTP/2 have been found a vulnerable (DoS) Denial of Service attack.
 
-That means stablishing an HTTP or HTTPS connection in keep-alive mode, a remote attacker could exploit this vulnerability to consume all available resource. But **an attacker can NOT modify or leak information**. Rather this vulnerability allows a small number of malicious sessions to prevent connection participants from doing additional work exhausting resource causing crash.
+That means stablishing an HTTP or HTTPS connection in keep-alive mode, a remote attacker could exploit this vulnerability to consume all available resources. But **an attacker can NOT modify or leak information**. Rather this vulnerability allows a small number of malicious sessions to prevent connection participants from doing additional work exhausting resource causing crash.
 
 Netflix discovered resource exhaustion vectors affecting HTTP/2 third-party implementations. Additional information can be found [here](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-002.md)
 
 #### Mitigation
 
-##### Enable/Disable IoT service
+##### Enable/Disable IBM IoT service
 
-IoT service is disable by default to prevent DoS attack in myCryptoBot. If you want to enable it, modify [api_config.js](/chatbot-server/api_config.js) setting F_USE_IBM_IOT=true
+IBM IoT service is disable by default to prevent DoS attack in myCryptoBot. If you want to enable it, modify [api_config.js](/chatbot-server/api_config.js) setting F_USE_IBM_IOT=true
 
 If you disable IBM IoT service (F_USE_IBM_IOT=false) you will not able to control your devices through coginitive service (IA).
 
-##### Install the latest version of Node.Js
+##### Install the latest version of Node.js
 
-In 2019-08-15 Node.Js made a notable changes security releases. Update your [node application](https://nodejs.org/en/) to latest version.
+In 2019-08-15 Node.js made a notable changes security releases. Update your [Node.js](https://nodejs.org/en/) to latest version.
 
 ##### Developing an independent library to myCryptoBot
 
-I am in a effort to develop an library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2
+I am in a effort to develop a library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2 allowing normal connection to IBM Cloud platform
 
-#### Contribution
+### Contribution
 
-```markdown
-Syntax highlighted code block
+Any help is welcome. You can:
 
-# Header 1
-## Header 2
-### Header 3
+- Notify bug and security issues
+- Improve code performance
+- Add support to languages interfaces
+- Make revisions of language translations
+- Make a small donation to this project
 
-- Bulleted
-- List
+### Donations
 
-1. Numbered
-2. List
+You can donate in:
 
-**Bold** and _Italic_ and `Code` text
+Donation
+--------
+Bitcoin: | 1JDckpLRJGhp46LTcjY1vsW19wurZ3L1d5
+Nano: | nano1cb5fs7xmixqzpitfn9ouy4j1g3hjmdfudc1igt5xhwwps7qdku5htqxmznb
+Litecoin: | LRjEiKadFzPCoGorWvSVUnWPsFyPZGt97f
+Dogecoin: | DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau
 
-[Link](url) and ![Image](src)
-```
+### Contact
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devfabiosilva/myCryptoBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can contact me at [fabioegel@gmail.com](mailto:fabioegel@gmail.com) or [fabioegel@protonmail.com](mailto:fabioegel@protonmail.com)
 
