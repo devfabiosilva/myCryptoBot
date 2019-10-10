@@ -19,7 +19,7 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 
 ### Installing
 
-myCryptoBot can run outside Azure Cloud via [Bridge](https://github.com/devfabiosilva/myCryptoBot/tree/master/bridge). This is an easy way to test and develop improvement without you have a MS Azure account. Easy to deploy before upload production to Azure Cloud.
+myCryptoBot can run outside Azure Cloud via [Bridge](https://github.com/devfabiosilva/myCryptoBot/tree/master/bridge). This is an easy way to test and develop improvement without you have an MS Azure account. That is an easy way to deploy before upload to final production to Azure Cloud.
 
 To run myCryptoBot in your computer you need:
 
@@ -57,11 +57,11 @@ node app.js
 
 #### Running client app
 
-myCryptoBot webchat is a cute and lightweight app build in [ReactJS](https://reactjs.org) a robust JavaScript library for building user interfaces. You can simply modify CSS page styles in styles directory or Adaptive Cards and webchat styles in [index.css]().
+myCryptoBot webchat is a cute and lightweight app built in [ReactJS](https://reactjs.org) a robust JavaScript library for building user interfaces. You can simply modify CSS page styles in styles directory or Adaptive Cards and webchat styles in [index.css]().
 
 To additional change inteface (language support, welcome message and conection to local server or Azure Cloud) open [README](webchat-client/README.md) for details.
 
-To run myCryptoBot:
+To run myCryptoBot webchat:
 
 ```markdown
 cd <YOUR_PATH>/myCryptoBot/webchat-client/
@@ -71,14 +71,19 @@ npm start
 
 ### myCryptoBot full framework
 
-Below is an framework to implement into your project
+Below is an framework example to implement into your project
 
 <p align="center">
   <img src="/docs/images/screenshot16.png">
 </p>
 <!--![Image](/docs/images/screenshot16.png) -->
+Fiat price, cryptocurrencies, Adaptive Cards and IoT integration are already implemented in this sample example. Just run it to test.
 
 ### Screenshots
+
+<p align="center">
+  <img src="/docs/images/screenshot17.png">
+</p>
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
