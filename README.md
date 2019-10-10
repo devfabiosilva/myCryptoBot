@@ -133,7 +133,8 @@ Any help is welcome. You can:
 
 You can donate in:
 
-Donations:
+Coin | Wallet
+---- | ------
 Bitcoin:   | 1JDckpLRJGhp46LTcjY1vsW19wurZ3L1d5
 Nano:      | nano_1cb5fs7xmixqzpitfn9ouy4j1g3hjmdfudc1igt5xhwwps7qdku5htqxmznb
 Litecoin:  | LRjEiKadFzPCoGorWvSVUnWPsFyPZGt97f
