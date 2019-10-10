@@ -47,7 +47,7 @@ Default port to listen: localhost:3000
 
 #### Running server app
 
-myCryptoBot server has two Artificial Intelligence services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](https://github.com/devfabiosilva/myCryptoBot/tree/master/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) and [myChatBotTrainingEnglish.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingEnglish.json) to upload to [LUIS](https://www.luis.ai/home). After trained chatbot just add you LUIS API to [MODIFY api_config.js]()
+myCryptoBot server has two Artificial Intelligence services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](https://github.com/devfabiosilva/myCryptoBot/tree/master/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) (for Brazilian Portuguese) and [myChatBotTrainingEnglish.json](https://github.com/devfabiosilva/myCryptoBot/blob/master/luis.ai_training_cultures/myChatBotTrainingEnglish.json) for (US English) to upload to [LUIS](https://www.luis.ai/home) cognitive service platform. After trained chatbot just add you LUIS API to [MODIFY api_config.js]()
 
 ```markdown
 cd <YOUR_PATH>/myCryptoBot/chatbot-server/
@@ -121,17 +121,17 @@ I am in a effort to develop a library that are independent of axios and ibmiotf 
 
 ### Contribution
 
-Any help is welcome. You can:
+Any help is welcome. And you can:
 
 - Notify bug and security issues
 - Improve code performance
-- Add support to languages interfaces
+- Add more languages to myCryptoBot interface
 - Make revisions of language translations
 - Make a small donation to this project
 
 ### Donations
 
-You can donate in:
+You can donate with any amount of money:
 
 Coin | Wallet
 ---- | ------
@@ -140,10 +140,9 @@ Nano:      | nano_1cb5fs7xmixqzpitfn9ouy4j1g3hjmdfudc1igt5xhwwps7qdku5htqxmznb
 Litecoin:  | LRjEiKadFzPCoGorWvSVUnWPsFyPZGt97f
 Dogecoin:  | DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+### License
+
+This project is under MIT license see [LICENSE](/LICENSE.md)
 
 ### Contact
 
