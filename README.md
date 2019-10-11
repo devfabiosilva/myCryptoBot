@@ -18,7 +18,7 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 
 ### Installing
 
-myCryptoBot can run outside Azure Cloud via [Bridge](myCryptoBot/bridge). This is an easy way to test and develop improvement without you have an MS Azure account. That is an easy way to deploy before upload to final production to Azure Cloud.
+myCryptoBot can run outside Azure Cloud via [Bridge](/myCryptoBot/bridge). This is an easy way to test and develop improvement without you have an MS Azure account. That is an easy way to deploy before upload to final production to Azure Cloud.
 
 To run myCryptoBot in your computer you need:
 
