@@ -70,13 +70,13 @@ npm start
 
 ### myCryptoBot full framework
 
-Below is an framework example to implement into your project
+Image below is a simple framework example to implement into your project.
 
 <p align="center">
   <img src="/docs/images/screenshot16.png">
 </p>
 
-Fiat price, cryptocurrencies, Adaptive Cards and IoT integration are already implemented in this sample example. Just run it to test.
+Fiat price, cryptocurrencies, Adaptive Cards and IBM IoT integration are already implemented in this example sample. Just download and run myCryptoBot.
 
 ### Screenshots
 
