@@ -16,6 +16,14 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 - Weather forecast API example (in development)
 - Compatible integration with Google drive
 
+###What is myCryptoBot?
+
+myCryptoBot is a cute Bot that uses Artificial Intelligence to aggregate disruptive technologies (cryptocurrencies, Industry 4.0, IoT, cloud services and IA) in one application.
+
+### What myCryptoBot is able to do?
+
+Now myCryptoBot is able to interact with humans in two languages (Brazilian Portuguese) and (US English) and make some interactions like greetings, find fiat quotation (Dollar and Euro prices), find cryptocurrencies (Bitcoin, Ethereum, Litecoin, Monero, IOTA and Nano) prices, integrate cloud services (Azure Cloud, IBM Cloud, cryptocurrencies API and fiat API). Also it's can do many more like: integration with weather forecast API (in development), Google Cloud and AWS services. Also myCryptoBot is interested in IoT technologies. He is able to interact with your devices (Arduino, Raspberry PI and other) through IBM Bluemix cloud and turn on or turn off your bedroom lamp. Adaptive Cards is used in myCryptoBot to create forms and interact with humans with audio/video stream with interactive text/image buttons.
+
 ### Installing
 
 myCryptoBot can run outside Azure Cloud via [Bridge](/bridge/). This is an easy way to test and develop improvement without you have an MS Azure account. That is an easy way to deploy before upload to final production to Azure Cloud.
@@ -88,7 +96,6 @@ Fiat price, cryptocurrencies, Adaptive Cards and IBM IoT integration are already
   <img src="/docs/images/screenshot18.png">
 </p>
 
-
 ### IoT security issues using IBM Cloud App Management
 
 A vulnerability in Node.js affects IBM Cloud App Management. Detais [here](https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/) and [here](https://www.ibm.com/support/pages/security-bulletin-vulnerability-nodejs-affects-ibm-cloud-app-management-v2018)
@@ -116,7 +123,7 @@ In 2019-08-15 Node.js made a notable changes security releases. Update your [Nod
 
 ##### Developing an independent library to myCryptoBot
 
-I am in a effort to develop a library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2 allowing normal connection to IBM Cloud platform
+I am in a effort to develop a library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2 allowing normal connection to IBM Cloud platform to allow access IoT devices using Artificial Intelligence.
 
 ### Contribution
 
