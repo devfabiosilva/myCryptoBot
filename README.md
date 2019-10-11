@@ -16,7 +16,7 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 - Weather forecast API example (in development)
 - Compatible integration with Google drive
 
-### What is myCryptoBot?
+### Who is myCryptoBot?
 
 myCryptoBot is a cute Bot that uses Artificial Intelligence to aggregate disruptive technologies (cryptocurrencies, Industry 4.0, IoT, cloud services and IA) in one application.
 
