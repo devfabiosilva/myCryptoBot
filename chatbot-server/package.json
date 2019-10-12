@@ -1,0 +1,34 @@
+{
+  "name": "chatbot-server",
+  "version": "1.0.0",
+  "description": "my ChatBot server example using disruptive technologies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "ia",
+    "azure",
+    "ibm",
+    "ibm-iot",
+    "luis.ai",
+    "bitcoin",
+    "nano",
+    "cryptocurrencies",
+    "blockchain",
+    "libertarianism"
+  ],
+  "author": "Fábio Pereira da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^4.5.3",
+    "botbuilder-ai": "^4.5.3",
+    "dotenv-extended": "^2.4.0",
+    "ibmiotf": "^0.2.41",
+    "intl": "^1.2.5",
+    "mqtt": "^3.0.0",
+    "properties": "^1.2.1",
+    "restify": "^8.4.0"
+  }
+}
