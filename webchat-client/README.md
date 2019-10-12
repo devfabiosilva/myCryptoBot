@@ -22,17 +22,19 @@ Set LOCAL=LANG.load_language(<YOUR_INTERFACE_LANGUAGE>) where:
 ```markdown
 LOCAL=LANG.load_language(LANG.EN_US); // US English
 ```
+### Custom message
 
-- Set SHOW_CLIENT_CUSTOM_MSG=true if you want show a custom message. Default value SHOW_CLIENT_CUSTOM_MSG=false
+- Set SHOW_CLIENT_CUSTOM_MSG=true if you want show a custom message. **Default** value SHOW_CLIENT_CUSTOM_MSG=false
+
 ### Communication to server:
 
 There are three modes:
 
-#### When USE_LOCAL_SERVER=true
+#### 1- When USE_LOCAL_SERVER=true
 
 * It will use direct offline mode (**DEFAULT** development mode and example). You must run [bridge](/bridge) to link myCryptoBot to client webchat without MS Azure Cloud account.
 
-#### When USE_LOCAL_SERVER=false
+#### 2- When USE_LOCAL_SERVER=false
 
 If you already have an MS Azure Cloud Accout:
 
@@ -40,7 +42,7 @@ If you already have an MS Azure Cloud Accout:
 
 You must install myCryptoBot in [MS Azure Cloud](https://azure.microsoft.com/en-us/)
 
-#### Communication protocol mode:
+#### 3- Communication protocol mode:
 
 * POST when using directline offline (default for development and example. It needs bridge.js appplication to work)
 
