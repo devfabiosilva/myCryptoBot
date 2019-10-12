@@ -8,7 +8,7 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 - Integration with MS Azure and Botframework
 - Offline direct line for development (you don't need run it in Azure Cloud for run this examples and tests)
 - Integration wit IBM Bluemix IoT to connect devices (Arduino, Raspberry Pi, etc) with myCryptoBot via IBM Cloud
-- Multi language interface (Brazilian Portuguese, English, French, Italian and Spanish)
+- Multi language interface webchat (Brazilian Portuguese, English, French, Italian and Spanish)
 - Customizable JSON language support for new languages interface. If you want to contribute with a new language support [contact me](mailto:fabioegel@gmail.com)
 - Custom Adaptive Cards to add multimedia and cute forms
 - Customizable API to integrate new API's with myCryptoBot
