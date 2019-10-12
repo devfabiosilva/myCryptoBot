@@ -1,0 +1,55 @@
+<!--
+	AUTHOR: Fábio Pereira da Silva
+	YEAR: 2019
+	LICENSE: MIT
+	EMAIL: fabioegel@gmail.com or fabioegel@protonmail.com
+
+	Main web browser file.
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    	   <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="theme-color" content="#000000" />
+        <link rel="stylesheet" type="text/css" href="styles/webchat.css">
+        <title>myChatBot designed by Fábio Pereira</title>
+    </head>
+    <body style="background-color: white;">
+
+    <div class="live-chat-container">
+		<header class="chatbot-head-bar">
+
+			<h1 id="id-chat-status" class="chat-status">&nbsp</h1>
+			<h2 class="chat-bot-name" id="chat-bot-name-id">My Chatbot</h2>
+
+			<span class="welcome-bubble"><img src="images/welcome.png"></span>
+			<span class="welcome-bubble-text" id="msg_welcome_title-id">Welcome !</span>
+
+		</header>
+
+	   	<div id="mywebchat" class="webchat-container" style="background-color: white;">
+	   	</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script>
+		(function() {
+
+			$('.chatbot-head-bar').on('click', function() {
+				$('.webchat-container').slideToggle(300);
+				$('.welcome-bubble').fadeToggle(300, 'swing');
+				$('.welcome-bubble-text').fadeToggle(300,'swing');
+
+			});
+
+			$('.webchat-container').hide();
+
+		}) ();
+
+	</script>
+    </body>
+</html>
