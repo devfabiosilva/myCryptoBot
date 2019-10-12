@@ -8,7 +8,7 @@ You need configure language and comunication interface before run it.
 
 Open [index.js](webchat-client/src/index.js) file to set configurations below.
 
-## Check user LANGUAGE:
+### Check user LANGUAGE:
 
 Set LOCAL=LANG.load_language(<YOUR_INTERFACE_LANGUAGE>) where:
 
