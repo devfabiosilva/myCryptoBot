@@ -37,7 +37,7 @@ your **endpointKey** is: _31b0efcb7cdf4c03a65c33800d684582_
 your **azureRegion** is _-360_
 
 
-13. Open [<YOUR PATH>/myCryptoBot/chatbot-server/api_config.js](chatbot-server/api_config.js) and set:
+13. Open [<YOUR PATH>/myCryptoBot/chatbot-server/api_config.js](/chatbot-server/api_config.js) and set:
 
 ```javascript
 const USE_LANG=SERVER_LANG_ENG_US; // for US ENGLISH or
