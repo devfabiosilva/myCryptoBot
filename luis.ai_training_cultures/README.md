@@ -1,6 +1,7 @@
 # Culture language training
 
-You must train your cognitive service before running myCryptoBot
+You must train your cognitive service before running myCryptoBot. 
+
 There are two examples (Brazilian Portuguese and US English). Choose one to install in your local server or in MS Azure Cloud.
 
 ## Creating LUIS (Language Understanding Intelligence System) account
