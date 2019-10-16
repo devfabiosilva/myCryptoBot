@@ -29,12 +29,12 @@ There are two examples (Brazilian Portuguese and US English). Choose one to inst
 
 12. Get your primakey API key, subscription key and Timezone offset. Example:
 
+In _https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ad1080a3-3cfc-4951-e132-48a3fcccc912?staging=true&verbose=true&timezoneOffset=-360&subscription-key=31b0efcb7cdf4c03a65c33800d684582&q=_ example:
 
-In _https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ad1080a3-3cfc-4951-e132-48a3fcccc912?staging=true&verbose=true&timezoneOffset=-360&subscription-key=31b0efcb7cdf4c03a65c33800d684582&q=_ link:
 
-your **applicationId** is: _ad1080a3-3cfc-4951-e132-48a3fcccc912_
-your **endpointKey** is: _31b0efcb7cdf4c03a65c33800d684582_
-your **azureRegion** is _-360_
+Your **applicationId** is: _ad1080a3-3cfc-4951-e132-48a3fcccc912_
+Your **endpointKey** is: _31b0efcb7cdf4c03a65c33800d684582_
+Your **azureRegion** is _-360_
 
 
 13. Open [<YOUR PATH>/myCryptoBot/chatbot-server/api_config.js](/chatbot-server/api_config.js) and set:

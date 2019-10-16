@@ -6,7 +6,7 @@ This is a client side of myCryptoBot webchat. This webchat is fully configurable
 
 You need configure language and comunication interface before run it.
 
-Open [index.js](webchat-client/src/index.js) file to set configurations below.
+Open [index.js](/webchat-client/src/index.js) file to set configurations below.
 
 ### Check user LANGUAGE:
 
@@ -19,7 +19,7 @@ Set LOCAL=LANG.load_language(<YOUR_INTERFACE_LANGUAGE>) where:
 * LANG.ES_ES for Spanish
 
 **DEFAULT:**
-```markdown
+```javascript
 LOCAL=LANG.load_language(LANG.EN_US); // US English
 ```
 ### Custom message
