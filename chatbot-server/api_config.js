@@ -59,14 +59,14 @@ const USE_LANG=SERVER_LANG_ENG_US; // USE: USE_LANG=SERVER_LANG_PT_BR; for Brazi
 
 //********** BEGIN ARTIFICIAL INTELLIGENCE API (LUIS.AI) **********//
 
-// Configuration for Brazilian Portuguese culture endpoint
+// Configuration for BRAZILIAN PORTUGUESE culture endpoint
 const luisApplication_pt_br = {
     applicationId: '<YOUR PORTUGUESE BR APP ID>',// Your Brazilian Portuguese culture AppId. Example: 'f220162c-a4f2-475c-804d-4d39b0e1c3ae'
     endpointKey: '<YOUR PORTUGUESE BR SUBSCRIPTION KEY>',//Your Brazilian Portuguese culture subscriptionKey. Example: '21a2efcb7cdfec03f65c33811b682581'
     azureRegion: '-360'//Your Brazilian Portuguese culture region. Example: '-360'
 }
 
-// Configuration for US English culture endpoint
+// Configuration for ENGLISH CULTURE culture endpoint
 const luisApplication_en_us = {
     applicationId: '<YOUR US ENGLISH APP ID>',//Your US English culture appId. Example: '9f806443-0f66-4e40-b3b3-ac113621a0c4'
     endpointKey: '<YOUR US ENGLISH SUBSCRIPTION KEY>',//Your US English culture subscriptionKey. Example: '12caefcb7cdf4cf3af4c00833d684581'
