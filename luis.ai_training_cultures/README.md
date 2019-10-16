@@ -126,6 +126,10 @@ node app.js
 ```
 
 
+## License
+
+This project is under MIT license see [LICENSE](/LICENSE)
+
 
 ## Creating new IA examples
 
