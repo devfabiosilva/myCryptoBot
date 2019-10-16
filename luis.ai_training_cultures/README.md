@@ -29,16 +29,15 @@ There are two examples (Brazilian Portuguese and US English). Choose one to inst
 
 12. Get your primakey API key, subscription key and Timezone offset. Example:
 
-```markdown
-In __https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ad1080a3-3cfc-4951-e132-48a3fcccc912?staging=true&verbose=true&timezoneOffset=-360&subscription-key=31b0efcb7cdf4c03a65c33800d684582&q=__ link:
 
-your **applicationId** is: __ad1080a3-3cfc-4951-e132-48a3fcccc912__
-your **endpointKey** is: __31b0efcb7cdf4c03a65c33800d684582__
-your **azureRegion** is __-360__
+In _https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ad1080a3-3cfc-4951-e132-48a3fcccc912?staging=true&verbose=true&timezoneOffset=-360&subscription-key=31b0efcb7cdf4c03a65c33800d684582&q=_ link:
 
-```
+your **applicationId** is: _ad1080a3-3cfc-4951-e132-48a3fcccc912_
+your **endpointKey** is: _31b0efcb7cdf4c03a65c33800d684582_
+your **azureRegion** is _-360_
 
-13. Open [<YOUR PATH>/myCryptoBot/chatbot-server/api_config.js](/myCryptoBot/chatbot-server/api_config.js) and set:
+
+13. Open [<YOUR PATH>/myCryptoBot/chatbot-server/api_config.js](chatbot-server/api_config.js) and set:
 
 ```javascript
 const USE_LANG=SERVER_LANG_ENG_US; // for US ENGLISH or
