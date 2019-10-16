@@ -70,14 +70,16 @@ There are two examples (Brazilian Portuguese and US English). Choose one to inst
 </p>
 
 
+EXAMPLE:
 
-In _https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ad1080a3-3cfc-4951-e132-48a3fcccc912?staging=true&verbose=true&timezoneOffset=-360&subscription-key=31b0efcb7cdf4c03a65c33800d684582&q=_ example:
+In _https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/ad1080a3-3cfc-4951-e132-48a3fcccc912?staging=true&verbose=true&timezoneOffset=-360&subscription-key=31b0efcb7cdf4c03a65c33800d684582&q=_
 
-Your **applicationId** is: _ad1080a3-3cfc-4951-e132-48a3fcccc912_
 
-Your **endpointKey** is: _31b0efcb7cdf4c03a65c33800d684582_
+- Your **applicationId** is: _ad1080a3-3cfc-4951-e132-48a3fcccc912_
 
-Your **azureRegion** is _-360_
+- Your **endpointKey** is: _31b0efcb7cdf4c03a65c33800d684582_
+
+- Your **azureRegion** is _-360_
 
 
 
