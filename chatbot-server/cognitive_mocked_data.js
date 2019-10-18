@@ -155,8 +155,8 @@ module.exports = {
 	LOCALE_PT_BR, LOCALE_EN_US, US_DOLAR, REAL_BRL, SERVER_LANG_PT_BR, SERVER_LANG_ENG_US, USE_LANG,
 	loadMockData,
 	fShowMyCurriculum: function() {
-		const fabio_img="./images/fabio_img.png";
-		var img_file = "data:image/png;base64," + Buffer.from(fs.readFileSync(fabio_img)).toString('base64');
+		const my_dev="./images/my_dev.png";
+		var img_file = "data:image/png;base64," + Buffer.from(fs.readFileSync(my_dev)).toString('base64');
 		var myCurriculum = {
 			"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
 			"type": "AdaptiveCard",
