@@ -1,0 +1,22 @@
+{
+  "name": "bridge",
+  "version": "1.0.0",
+  "description": "Bridge for myCryptoBot for development without working with MS Azure service",
+  "main": "bridge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bridge",
+    "myCryptoBot"
+  ],
+  "author": "Fábio Pereira da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.3"
+  }
+}
