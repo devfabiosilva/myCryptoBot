@@ -24,6 +24,7 @@ const IT_IT = 3;
 const ES_ES = 4;
 
 const chatBotName="CryptoBot";
+const myCompanyName="My Company";
 
 // TODO: Os idiomas Francês, Espanhol e o Italiano precisam de revisão de um nativo ou uma pessoa que entende o idioma específico
 
@@ -38,7 +39,7 @@ const MESSAGE_PT_BR = {
 	msg_welcome6: "Dogecoin: DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau",
 	msg_sent: "Enviado: ",
 	msg_received_at: "Recebido às: ",
-	msg_dev_company: "Desenvolvido por Fábio Pereira",
+	msg_dev_company: "Desenvolvido por "+myCompanyName,
 	msg_box_hint: "Digite sua mensagem aqui...",
 	local: 'pt',
 	date_format: 'HH:mm DD/MM/YYYY',
@@ -61,7 +62,7 @@ const MESSAGE_EN_US = {
 	msg_welcome6: "Dogecoin: DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau",
 	msg_sent: "Sent: ",
 	msg_received_at: "Received at: ",
-	msg_dev_company: "Developed by Fábio Pereira",
+	msg_dev_company: "Developed by "+myCompanyName,
 	msg_box_hint: "Your message here...",
 	local: 'us',
 	date_format: 'HH:mm MM/DD/YYYY',
@@ -85,7 +86,7 @@ const MESSAGE_FR_FR = {
 	msg_welcome6: "Dogecoin: DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau",
 	msg_sent: "Envoyé: ",
 	msg_received_at: "Reçu: ",
-	msg_dev_company: "Développé par Fábio Pereira",
+	msg_dev_company: "Développé par "+myCompanyName,
 	msg_box_hint: "Tapez votre message ...",
 	local: 'fr',
 	date_format: 'HH:mm DD/MM/YYYY',
@@ -109,7 +110,7 @@ const MESSAGE_IT_IT = {
 	msg_welcome6: "Dogecoin: DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau",
 	msg_sent: "Inviato: ",
 	msg_received_at: "Ricevuto a: ",
-	msg_dev_company: "Sviluppato da Fábio Pereira",
+	msg_dev_company: "Sviluppato da "+myCompanyName,
 	msg_box_hint: "Il tuo messaggio qui...",
 	local: 'it',
 	date_format: 'HH:mm DD/MM/YYYY',
@@ -132,7 +133,7 @@ const MESSAGE_ES_ES = {
 	msg_welcome6: "Dogecoin: DRrWWMdwY6AN8rdz7zH2cp3qaK8vSgDTau",
 	msg_sent: "Expedido: ",
 	msg_received_at: "Recibido en: ",
-	msg_dev_company: "Desarrollado por Fábio Pereira",
+	msg_dev_company: "Desarrollado por "+myCompanyName,
 	msg_box_hint: "Su mensaje aquí...",
 	local: 'es',
 	date_format: 'HH:mm DD/MM/YYYY',
