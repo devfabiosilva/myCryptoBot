@@ -131,7 +131,7 @@ node app.js
 This project is under MIT license see [LICENSE](/LICENSE)
 
 
-## Creating new IA examples
+## Creating new ML examples
 
 You can help me to improvement and training of languages cultures or even add a new one.
 If you want to help me contact me at [fabioegel@gmail.com](mailto:fabioegel@gmail.com) or [fabioegel@protonmail.com](mailto:fabioegel@protonmail.com)
