@@ -4,7 +4,7 @@
   <img src="/docs/images/screenshot22.png">
 </p>
 
-myCryptoBot is a cute chatbot with full client and server structure example with rich details explaining disruptive technologies. Using [Microsoft LUIS (Language Understandig Intelligence System)](https://www.luis.ai/home), IoT integration with [IBM Bluemix](https://www.ibm.com/cloud/info/fast-cloud-servers) and using API's to access [cryptocurrencies](https://coinmarketcap.com) and [fiat prices](https://apilayer.com). Also myCryptoBot is fully compatible with [Google Drive](https://about.google/intl/drive/) datasheets. You can include Google API to custom myCryptoBot messages and text. With [Adaptive Cards](https://adaptivecards.io) you can include amazing and cute dynamic forms and multimidia (audio/video)
+myCryptoBot is a cute chatbot with full client and server structure example with rich details explaining disruptive technologies. Using [Microsoft LUIS (Language Understandig)](https://www.luis.ai/home), IoT integration with [IBM Bluemix](https://www.ibm.com/cloud/info/fast-cloud-servers) and using API's to access [cryptocurrencies](https://coinmarketcap.com) and [fiat prices](https://apilayer.com). Also myCryptoBot is fully compatible with [Google Drive](https://about.google/intl/drive/) datasheets. You can include Google API to custom myCryptoBot messages and text. With [Adaptive Cards](https://adaptivecards.io) you can include amazing and cute dynamic forms and multimidia (audio/video)
 
 ### Features
 
@@ -22,7 +22,7 @@ myCryptoBot is a cute chatbot with full client and server structure example with
 
 ### Who is myCryptoBot?
 
-myCryptoBot is a cute Bot that uses Artificial Intelligence to aggregate disruptive technologies (cryptocurrencies, Industry 4.0, IoT, cloud services and IA) in one application.
+myCryptoBot is a cute Bot that uses machine learning-based service to aggregate disruptive technologies (cryptocurrencies, Industry 4.0, IoT, cloud services) in one application.
 
 ### What myCryptoBot is able to do?
 
@@ -58,7 +58,7 @@ Default port to listen: localhost:3000
 
 #### Running server app
 
-myCryptoBot server has two Artificial Intelligence services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](/myCryptoBot/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) (for Brazilian Portuguese) and [myChatBotTrainingEnglish.json](/luis.ai_training_cultures/myChatBotTrainingEnglish.json) for (US English) to upload to [LUIS](https://www.luis.ai/home) cognitive service platform. After trained chatbot just add you LUIS API to [api_config.js](/chatbot-server/api_config.js)
+myCryptoBot server has two machine learning-based service services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](/myCryptoBot/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) (for Brazilian Portuguese) and [myChatBotTrainingEnglish.json](/luis.ai_training_cultures/myChatBotTrainingEnglish.json) for (US English) to upload to [LUIS](https://www.luis.ai/home) cognitive service platform. After trained chatbot just add you LUIS API to [api_config.js](/chatbot-server/api_config.js)
 
 ```markdown
 cd <YOUR_PATH>/myCryptoBot/chatbot-server/
@@ -119,7 +119,7 @@ Netflix discovered resource exhaustion vectors affecting HTTP/2 third-party impl
 
 IBM IoT service is disable by default to prevent DoS attack in myCryptoBot. If you want to enable it, modify [api_config.js](/chatbot-server/api_config.js) setting F_USE_IBM_IOT=true
 
-If you disable IBM IoT service (F_USE_IBM_IOT=false) you will not able to control your devices through coginitive service (IA).
+If you disable IBM IoT service (F_USE_IBM_IOT=false) you will not able to control your devices via LUIS.AI API.
 
 ##### Install the latest version of Node.js
 
@@ -127,7 +127,7 @@ In 2019-08-15 Node.js made a notable changes security releases. Update your [Nod
 
 ##### Developing an independent library to myCryptoBot
 
-I am in a effort to develop a library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2 allowing normal connection to IBM Cloud platform to allow access IoT devices using Artificial Intelligence.
+I am in a effort to develop a library that are independent of axios and ibmiotf framework avoiding implementation of HTTP/2 allowing normal connection to IBM Cloud platform to allow access IoT devices using machine learning-based service.
 
 ### Contribution
 

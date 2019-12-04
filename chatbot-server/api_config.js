@@ -123,7 +123,7 @@ const APILAYER_NET_API="http://www.apilayer.net/api/live?access_key=9d58753a7da5
 
 //********** BEGIN IBM IoT PLATFORM **********//
 
-// By default IBM Bluemix is disabled. If you want to enable it, set F_USE_IBM_IOT=true and configure your IoT device to interact with myCryptoBot  Artificial Intelligence service.
+// By default IBM Bluemix is disabled. If you want to enable it, set F_USE_IBM_IOT=true and configure your IoT device to interact with myCryptoBot service.
 
 var ibmAppClientConfig = {
   org: '<YOUR IOT_ORG>', // Your IBM IoT appOrg. Example: org: 'spo6lv'
