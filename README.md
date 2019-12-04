@@ -58,7 +58,7 @@ Default port to listen: localhost:3000
 
 #### Running server app
 
-myCryptoBot server has two machine learning-based service services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](/myCryptoBot/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) (for Brazilian Portuguese) and [myChatBotTrainingEnglish.json](/luis.ai_training_cultures/myChatBotTrainingEnglish.json) for (US English) to upload to [LUIS](https://www.luis.ai/home) cognitive service platform. After trained chatbot just add you LUIS API to [api_config.js](/chatbot-server/api_config.js)
+myCryptoBot server has two machine learning-based services (US English culture) and (Brazilian Portuguese culture). You need to select one of them or even add a new culure language if you want. You must train your chatbot to learn your language culture before you run server app. In [luis.ai_training_cultures](/luis.ai_training_cultures) directory there are two training examples [myChatBotTrainingBrazilianPortuguese.json](/myCryptoBot/luis.ai_training_cultures/myChatBotTrainingBrazilianPortuguese.json) (for Brazilian Portuguese) and [myChatBotTrainingEnglish.json](/luis.ai_training_cultures/myChatBotTrainingEnglish.json) for (US English) to upload to [LUIS](https://www.luis.ai/home) cognitive service platform. After trained chatbot just add you LUIS API to [api_config.js](/chatbot-server/api_config.js)
 
 ```markdown
 cd <YOUR_PATH>/myCryptoBot/chatbot-server/
