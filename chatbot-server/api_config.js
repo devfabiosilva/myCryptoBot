@@ -11,8 +11,8 @@
 
 	Here you need:
 
-		INTEGRATE LUIS.AI ARTIFICIAL INTELLIGENCE
-		=========================================
+		INTEGRATE LUIS.AI
+		=================
 
 		- Use Brazilian Portuguese culture endpoit (if you are using Brazilian Portuguese Language)
 		- Use US English culture endpoit (if you are using US English Language)
@@ -52,14 +52,14 @@ const SERVER_LANG_ENG_US=2;
 	USE_LANG=SERVER_LANG_ENG_US; (for US ENGLISH)
 */
 
-const USE_LANG=SERVER_LANG_ENG_US; // USE: USE_LANG=SERVER_LANG_PT_BR; for Brazilian Portuguese culture
+const USE_LANG=SERVER_LANG_ENG_US;//SERVER_LANG_PT_BR;
 
 //********** END SELECT CHATBOT COGNITIVE SERVICE LANGUAGE FOR (LUIS.AI) **********//
 
 
-//********** BEGIN ARTIFICIAL INTELLIGENCE API (LUIS.AI) **********//
+//********** BEGIN LUIS.AI API **********//
 
-// Configuration for BRAZILIAN PORTUGUESE culture endpoint
+// Configuration for Brazilian Portuguese culture endpoint
 const luisApplication_pt_br = {
     applicationId: '<YOUR PORTUGUESE BR APP ID>',// Your Brazilian Portuguese culture AppId. Example: 'f220162c-a4f2-475c-804d-4d39b0e1c3ae'
     endpointKey: '<YOUR PORTUGUESE BR SUBSCRIPTION KEY>',//Your Brazilian Portuguese culture subscriptionKey. Example: '21a2efcb7cdfec03f65c33811b682581'
@@ -78,7 +78,7 @@ var botFrameworkAdapter = {
     appPassword: null //Your MS App Password (optional). Don't care about for this example
 }
 
-const LUIS_PORT=3978; // You don't need to change this.
+const LUIS_PORT=3978;
 
 // Create configuration for LuisRecognizer's runtime behavior.
 const luisPredictionOptions = {
@@ -87,7 +87,7 @@ const luisPredictionOptions = {
     staging: true// false // Change to false in "production" mode
 }
 
-//********** END OF ARTIFICIAL INTELLIGENCE API **********//
+//********** END OF LUIS.AI API **********//
 
 
 
@@ -99,7 +99,7 @@ const luisPredictionOptions = {
 
 //********** BEGIN CRIPTOCURRENCY API CONFIG **********//
 
-const COINMARKETCAP_API="https://api.coinmarketcap.com/v1/ticker/"; // You don't need change this
+const COINMARKETCAP_API="https://api.coinmarketcap.com/v1/ticker/";
 
 //********** END CRIPTOCURRENCY API CONFIG **********//
 
@@ -111,7 +111,7 @@ const COINMARKETCAP_API="https://api.coinmarketcap.com/v1/ticker/"; // You don't
 
 //********** BEGIN FIAT CURRENCY API CONFIG **********//
 
-const APILAYER_NET_API="http://www.apilayer.net/api/live?access_key=9d58753a7da5cc911f6d8f61410ca0cb&format=1"; // You don't need to change this
+const APILAYER_NET_API="http://www.apilayer.net/api/live?access_key=9d58753a7da5cc911f6d8f61410ca0cb&format=1";
 
 //********** END FIAT CURRENCY API CONFIG **********//
 

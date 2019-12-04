@@ -28,7 +28,7 @@ Select your culture (<YOUR_PATH>/myCryptoBot/luis.ai_training_cultures/myChatBot
 </p>
 
 ```javascript
-//********** BEGIN ARTIFICIAL INTELLIGENCE API (LUIS.AI) **********//
+//********** BEGIN LUIS.AI API **********//
 
 // Configuration for BRAZILIAN PORTUGUESE culture endpoint
 const luisApplication_pt_br = {
@@ -98,7 +98,7 @@ and set IBM Bluemix IoT API:
 ```javascript
 //********** BEGIN IBM IoT PLATFORM **********//
 
-// By default IBM Bluemix is disabled. If you want to enable it, set F_USE_IBM_IOT=true and configure your IoT device to interact with myCryptoBot  Artificial Intelligence service.
+// By default IBM Bluemix is disabled. If you want to enable it, set F_USE_IBM_IOT=true and configure your IoT device to interact with myCryptoBot service.
 
 var ibmAppClientConfig = {
   org: '<YOUR IOT_ORG>', // Your IBM IoT appOrg. Example: org: 'spo6lv'

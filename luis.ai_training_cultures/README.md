@@ -95,7 +95,7 @@ const USE_LANG=SERVER_LANG_PT_BR; //for BRAZILIAN PORTUGUESE.
 and set same LUIS API endpoints (**applicationId**, **endpointKey** and **azureRegion**) to myCryptoBot application.
 
 ```javascript
-//********** BEGIN ARTIFICIAL INTELLIGENCE API (LUIS.AI) **********//
+//********** BEGIN LUIS.AI API **********//
 
 // Configuration for BRAZILIAN PORTUGUESE culture endpoint
 const luisApplication_pt_br = {
