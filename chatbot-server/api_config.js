@@ -147,7 +147,7 @@ const F_USE_IBM_IOT=false; // Default. IoT service disabled
 
 module.exports = {
 	botFrameworkAdapter, luisPredictionOptions, LUIS_PORT,
-	COINMARKETCAP_API, APILAYER_NET_API,
+	COINMARKETCAP_API, APILAYER_NET_API, USE_LANG,
 	ibmAppClientConfig, F_DEVICE_TYPE, F_DEVICE_ID, F_DATA, F_DATA_TYPE, F_DEBUG, F_TIMEOUT, F_USE_IBM_IOT,
 	luisApplication: function() {
 		return (USE_LANG===SERVER_LANG_ENG_US)?luisApplication_en_us:luisApplication_pt_br;
